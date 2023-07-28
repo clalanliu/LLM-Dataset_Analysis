@@ -3,6 +3,8 @@ This records analysis of dataset composition of LLM works.
 
 ## Foundation Models
 ### LLAMA2
+#### SFT Dataset
+27.5k 
 #### RLHF Dataset
 | Dataset                    | Num. of Comparisons | Num. of Prompt | Avg. # Turns per Dialogue | Avg. # Tokens per Example | Avg. # Tokens in Prompt | Avg. # Tokens in Response |
 |----------------------------|---------------------|------------|---------------------------|---------------------------|-------------------------|---------------------------|
@@ -15,3 +17,15 @@ This records analysis of dataset composition of LLM works.
 | Synthetic GPT-J            | 33,139              |33,139      | 1.0                       | 123.3                     | 13.0                    | 110.3                     |
 | Meta (Safety & Helpfulness)| 1,418,091           |            | 3.9                       | 798.5                     | 31.4                    | 234.1                     |
 | Total                      | 2,919,326           |1,502,135   | 1.6                       | 595.7                     | 108.2                   | 216.9                     |
+
+### LLAMA
+#### Pretraining Dataset
+| Dataset       | Sampling Prop. | Epochs | Disk Size |
+| ------------- | -------------- | ------ | --------- |
+| CommonCrawl   | 67.0%          | 1.10   | 3.3 TB    |
+| C4            | 15.0%          | 1.06   | 783 GB    |
+| Github        | 4.5%           | 0.64   | 328 GB    |
+| Wikipedia     | 4.5%           | 2.45   | 83 GB     |
+| Books         | 4.5%           | 2.23   | 85 GB     |
+| ArXiv         | 2.5%           | 1.06   | 92 GB     |
+| StackExchange | 2.0%           | 1.03   | 78 GB     |
