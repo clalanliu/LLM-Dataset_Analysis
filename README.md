@@ -3,6 +3,8 @@ This records analysis of dataset composition of LLM works.
 
 ## Foundation Models
 ### LLAMA2
+#### Pretraining Dataset
+2T
 #### SFT Dataset
 27.5k 
 #### RLHF Dataset
