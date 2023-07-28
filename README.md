@@ -2,7 +2,7 @@
 This records analysis of dataset composition of LLM works.
 
 ## Foundation Models
-### LLAMA2
+### LLAMA2 (2023/07)
 #### Pretraining Dataset
 2T
 #### SFT Dataset
