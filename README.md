@@ -2,6 +2,8 @@
 This records analysis of dataset composition of LLM works.
 
 ## Foundation Models
+### Orca (2023/08)
+[ORCA](Orca.md)
 ### Hermes (2023/07)
 #### SFT Dataset
 | Dataset                   | Num. of Prompt |
